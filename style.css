@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+ 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+ 
+li{
+    display: inline-block;
+}
+ 
+ 
+ 
+.title{
+    flex-direction: column;
+    line-height: 10px;
+ 
+}
+h1{
+    font-weight: 200;
+    }
+    a{
+        color: white;
+        padding: 10px;
+    }
+    a:hover{
+        color: rgb(132, 13, 201);
+        transition: 0.3s all;
+    }
+    #inscreva-se-btn:hover{
+        border: 2px solid rgb(132, 13, 201);
+        padding: 10px;
+        border-radius: 15px;
+ 
+    }
+ 
+ 
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+ 
+    h2{
+        font-size: 56px;
+        line-height: 10px;
+       
+ 
+}
+ 
+span{
+    color: rgb(132, 13, 201);
+}
+ 
+p{
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+}
+ 
+img{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    width: 600px;
+}
+ 
+form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+ 
+.enviar{
+    height: 50px;
+width: 50%;
+background-color: rgb(132, 13, 201);
+color: white;
+font-weight: bold;
+ 
+}
+ 
+ 
+ 
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+       
+    }
+
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        
+    }
